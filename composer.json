@@ -1,0 +1,14 @@
+{
+    "require": {
+	"ext-pdo": "*",
+        "symfony/cache": "^5.0",
+        "slim/slim": "4.*",
+        "slim/psr7": "*",
+        "rbdwllr/reallysimplejwt": "^5.0",
+        "php-di/php-di": "^5.4",
+        "zircote/swagger-php": "3.3.3"
+    },
+    "skripts": {
+        "start": "php -S localhost:8888 -t public"    
+    }
+}
